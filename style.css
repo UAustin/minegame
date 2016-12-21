@@ -1,0 +1,121 @@
+body {
+	background: #9ACD32;
+}
+
+.buttons{
+    position:absolute;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    left: 50%;
+    top: 40%;
+    margin-left: -70px;
+    margin-top: 190px;
+}
+
+button{
+    display: block;
+    width: 120px;
+    height:30px;
+    border-radius: 7px;
+    border: none;
+    background: #8A2BE2;
+    color: white;
+    font-size: 19px;
+    box-shadow: 2px 2px 1px #888;
+    margin:10px auto;
+}
+button:hover{
+    background: #8B008B;
+    box-shadow: 2px 2px 3px #777;
+}
+
+.container {
+    width:340px;
+    height:380px;
+    background: #9AC0CD;
+    border:3px solid #8FBC8F;
+    border-radius: 5%;
+    box-shadow: 4px 4px 8px #888;
+    position: absolute;
+    left:50%;
+    top:35%;
+    margin-left: -183px;
+    margin-top: -168px;
+}
+
+header {
+	width: 300px;
+	height: 40px;
+	font-size: 25px;
+	font-weight:bolder;
+	text-align: center;
+	padding: 8px 20px 2px;
+	border-bottom: 3px solid #828282;
+	border-radius: 10%;
+}
+
+.header-contain-nums {
+	border: 2px solid #6E8B3D;
+	width: 130px;
+	border-radius: 7%;
+}
+
+#id-div-time {
+	float: right;
+}
+
+#id-div-mines {
+	float: left;
+}
+
+#id-content {
+	width: 310px;
+	height: 310px;
+	margin: 5px auto;
+	padding-top: 10px;
+}
+
+.square-line {
+	width: 300px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.square {
+	width: 23px;
+	height: 23px;
+	border: 1px solid #666;
+	float: left;
+	text-align: center;
+	background: #6495ED;
+}
+
+.square:hover{
+	background: #cdf;
+}
+
+.mine {
+    background: #f88;
+}
+
+.mine:hover {
+    background: #f55;
+}
+
+.value {
+	visibility: hidden;
+}
+
+/*点击后可见*/
+.show {
+    visibility: visible;
+}
+/*点击后显示背景颜色*/
+.clicked {
+	background: #79CDCD;
+}
+/*鼠标滑过的颜色*/
+.clicked:hover {
+	background: #ccc;
+}
